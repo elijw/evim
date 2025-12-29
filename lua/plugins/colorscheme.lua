@@ -1,5 +1,7 @@
 -- plugins.colorscheme
 
+-- https://dotfyle.com/neovim/colorscheme/top
+
 return {
   -- gruvbox colorscheme
   { "ellisonleao/gruvbox.nvim" },
