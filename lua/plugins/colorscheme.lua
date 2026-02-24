@@ -26,6 +26,7 @@ return {
 
   -- solarized-osaka colorscheme
   {
+
     "craftzdog/solarized-osaka.nvim",
     lazy = false,
     priority = 1000,
@@ -56,7 +57,7 @@ return {
     "LazyVim/LazyVim",
     opts = {
       -- here precisely
-      colorscheme = "gruvbox-material",
+      colorscheme = "everforest",
     },
   },
 }

@@ -19,3 +19,4 @@
 -- Add any additional options here
 
 vim.g.lazyvim_picker = "telescope"
+vim.g.autoformat = true

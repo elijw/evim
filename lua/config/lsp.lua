@@ -77,6 +77,15 @@ vim.lsp.config("dartls", {
   settings = { dart = { lineLength = 160 } },
 })
 
+vim.lsp.config("eslint", {
+  settings = {
+    useFlatConfig = true,
+  },
+  on_attach = function(client)
+    client.server_capabilities.documentFormattingProvider = false
+  end,
+})
+
 -- 3. Enable servers
 vim.lsp.enable("lua_ls")
 vim.lsp.enable("dartls")
@@ -84,3 +93,5 @@ vim.lsp.enable("ts_ls")
 vim.lsp.enable("csharp_ls")
 vim.lsp.enable("ruff")
 vim.lsp.enable("pyright")
+vim.lsp.enable("clangd")
+vim.lsp.enable("eslint")

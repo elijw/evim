@@ -21,10 +21,9 @@
 -- vim.keymap.del("n", "<Leader>e")
 -- vim.keymap.del("n", "<Leader>E")
 
-vim.keymap.set("n", "<Leader>ee", ":Neotree source=filesystem<CR>", { desc = "Open Neotree (FS)" })
-vim.keymap.set("n", "<Leader>eb", ":Neotree source=buffers<CR>", { desc = "Open Neotree (Buf)" })
-vim.keymap.set("n", "<Leader>eg", ":Neotree source=git_status<CR>", { desc = "Open Neotree (Git)" })
-
+vim.keymap.set("n", "<Leader>ee", ":Neotree toggle source=filesystem<CR>", { desc = "Open Neotree (FS)" })
+vim.keymap.set("n", "<Leader>eb", ":Neotree toggle source=buffers<CR>", { desc = "Open Neotree (Buf)" })
+vim.keymap.set("n", "<Leader>eg", ":Neotree toggle source=git_status<CR>", { desc = "Open Neotree (Git)" })
 -- local cmp = require("cmp")
 -- cmp.setup({
 --   mapping = {

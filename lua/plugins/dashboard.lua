@@ -84,7 +84,7 @@ return {
         {
           pane = 2,
           section = "terminal",
-          cmd = "chafa ~/Pictures/wallpapers/lake.jpeg --format symbols --symbols vhalf --size 60x17 --stretch; sleep .1",
+          cmd = "chafa $(cat $HOME/.cache/wal/wal) --format symbols --symbols vhalf --size 60x17 --stretch; sleep .1",
           height = 10,
           padding = 1,
         },

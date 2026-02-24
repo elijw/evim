@@ -7,7 +7,6 @@ return {
   settings = {
     python = {
       analysis = {
-        -- Disable Pyright's linting so you don't get duplicate errors
         ignore = { "*" },
         typeCheckingMode = "standard",
       },
