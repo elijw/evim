@@ -7,4 +7,7 @@ foo.*
 *.log
 data
 .stfolder/
+<<<<<<< HEAD
 **/**/.stfolder
+=======
+>>>>>>> ea7d81b405777d4b4a40331d6dc57f63596575fa
